@@ -1,0 +1,21 @@
+Baixar o Django e instalar:
+wget "http://www.djangoproject.com/download/1.3/tarball/"
+tar xzvf Django-1.3.tar.gz
+cd Django-1.3
+sudo python setup.py install
+
+Instalar o easy install e depois o django evolution:
+sudo apt-get install python-setuptools
+easy_install -U django_evolution
+
+Acessar o diretório do projeto:
+python manage.py runserver
+
+Acessar no navegador:
+localhost:8000/admin
+
+
+Login: solicitante
+Senha: solicitante
+
+
