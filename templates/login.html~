@@ -1,0 +1,11 @@
+
+
+<form method="post">
+ <div class="form">
+{% csrf_token %}
+  {{ form }}
+  <input type="submit" value="Entrar"/>
+ </div>
+</form>
+
+ 
