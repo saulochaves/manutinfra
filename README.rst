@@ -18,20 +18,21 @@ Os serviços disponibilizados pelo sistema são:
 
 	/api/ordens_manutencao
 - Lista de todas as ordens de infraestrutura::
+
 	/api/ordens_infraestrutura
 - Busca de ordem de manutenção utilizando como parâmetro o ID via URL::
+
 	/api/ordens_manutencao/{ID}
 - Busca de ordem de infraestrutura utilizando como parâmetro o ID via URL::
+
 	/api/ordens_infraestrutura/{ID}
 - Lista de todas as ordens de manutenção com status "em aprovacao"::
+
 	/api/ordens_manutencao/aprovacao
 - Lista de todas as ordens de infraestrutura com status "em aprovacao"::
+
 	/api/ordens_infraestrutura/aprovacao
 
-
-Acessar o diretório do projeto:
--------
-python manage.py runserver
 
 Acesso:
 -------
