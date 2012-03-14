@@ -14,5 +14,5 @@ sudo easy_install -U django_evolution
 #Instalando o Piston
 sudo apt-get install python-django-piston python-#piston-mini-client
 
-python manage.py syncdb
+#python manage.py syncdb
 python2.7 manage.py runserver 127.0.0.1:8000
