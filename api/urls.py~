@@ -18,10 +18,10 @@ infra_aprov_resource = Resource(Handler_Infra_Aprovacao)
 
 urlpatterns = patterns('',
 #	url(r'ordens_manutencao/(?P<emitter_format>.+)/$',manutencao_resource),
-	(r'ordens_manutencao/$',manutencao_resource),
-	(r'ordens_manutencao/(?P<ordem_id>\d+)$', manutencao_id_resource),
-	(r'ordens_manutencao/aprovacao',manutencao_aprov_resource),
-	(r'ordens_infraestrutura/$',infra_resource),
-	(r'ordens_infraestrutura/(?P<ordem_id>\d+)$', infra_id_resource),
-	(r'ordens_infraestrutura/aprovacao',infra_aprov_resource),
+	url(r'ordens_manutencao/$',manutencao_resource),
+	url(r'ordens_manutencao/(?P<ordem_id>\d+)$', manutencao_id_resource),
+	url(r'ordens_manutencao/aprovacao',manutencao_aprov_resource),
+	url(r'ordens_infraestrutura/$',infra_resource),
+	url(r'ordens_infraestrutura/(?P<ordem_id>\d+)$', infra_id_resource),
+	url(r'ordens_infraestrutura/aprovacao',infra_aprov_resource),
 )

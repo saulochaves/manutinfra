@@ -69,7 +69,7 @@ class Handler_Infra (BaseHandler):
 
 	def create(self, request , **kwargs):
 		dados_infra = request.data
-		ordem = Ordem_Infraestrutura( solicitante = dados_infra['solicitante'],setor=dados_infra['setor'],descricao=dados_infra['descricao'],empresa=dados_infra['empresa'],criador=request.user)
+		ordem = Ordem_Infraestrutura(solicitante=dados_infra['solicitante'],setor=dados_infra['setor'],descricao=dados_infra['descricao'],empresa=dados_infra['empresa'],criador=request.user)
 		ordem.save()
 		return 'Gerada ordem de numero : '+ str(ordem.id)
 

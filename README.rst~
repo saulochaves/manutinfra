@@ -33,13 +33,9 @@ Os serviços disponibilizados pelo sistema são:
 
 	/api/ordens_infraestrutura/aprovacao
 
-- Criar Ordens de Infraestrutura (Exemplo)::
+- Criar Ordens de Infraestrutura::
 
 	curl -u solicitante:solicitante -H 'Content-Type:application/json' -X POST -d '{"setor": "setor", "descricao": "descricao", "equipamento": "equipamento","empresa":"empresa","solicitante":"solicitante"}' http://127.0.0.1:8000/api/ordens_infraestrutura/
-
-- Criar Ordens de Manutenção (Exemplo)::
-
-	curl -u solicitante:solicitante -H 'Content-Type:application/json' -X POST -d '{"setor": "setor", "descricao": "descricao", "equipamento": "equipamento","solicitante":"solicitante"}' http://127.0.0.1:8000/api/ordens_manutencao/
 
 
 Acesso:
