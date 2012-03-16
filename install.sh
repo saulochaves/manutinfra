@@ -2,8 +2,8 @@
 sudo apt-get install python2.7
 
 #Instalando o pip e algumas ferramentas do python
-sudo apt-get install python-pip
 sudo apt-get install python-setuptools
+sudo easy_install pip
 
 #Instalando o Django
 sudo pip install django==1.3
@@ -12,7 +12,7 @@ sudo pip install django==1.3
 sudo easy_install -U django_evolution
 
 #Instalando o Piston
-sudo apt-get install python-django-piston python-#piston-mini-client
+sudo pip install django-piston piston-mini-client
 
 python manage.py syncdb
-python2.7 manage.py runserver 127.0.0.1:8000
+python manage.py runserver 127.0.0.1:8000
